@@ -1,0 +1,92 @@
+body {
+    background-color: #171821;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    background-image: url(resources/tech.gif);
+    color: #FAFAFA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+.about-me {
+    height: 100%;
+    background-color: #e7e7e7;
+
+}
+
+.academics {
+    color:#FAFAFA;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 20%;
+}
+
+.contact {
+    color:#FAFAFA;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 20%;
+}
+.work {
+    background-color: #FAFAFA;
+    color: #171821;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 20%;
+
+}
+
+.portfolio {
+    height: 100%;
+    background-color: #e7e7e7;
+    color: #171821;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+ul {
+	list-style: none;
+}
+
+.ability-score {
+    color:#22A39F;
+}
+
+
+
+@media only screen and (max-width: 600px)  {
+    .academics {
+        color:#FAFAFA;
+        background-color: #000000;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: center;
+        background-size: 25vh;
+    }
+    
+    .work {
+        background-color: #FAFAFA;
+        color: #171821;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: center;
+        background-size: 25vh;
+    }
+}
